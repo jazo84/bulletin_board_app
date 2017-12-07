@@ -39,9 +39,8 @@ $(document).ready(function(){
         messageTitle.text(res[i].title);
         messageBody.text(res[i].body);
         newRow.append(messageTitle).append(messageBody);
-        $('#cardDiv').append(newRow);
+        $('#cardBody').append(newRow);
       }
     });
   };
-  appendMessageBoard();
 });
