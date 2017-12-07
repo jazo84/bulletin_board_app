@@ -1,0 +1,36 @@
+#image{
+  height:40px;
+  width:40px:
+}
+
+.jumbotron {
+  background: #8dd4db;
+  background: -webkit-linear-gradient(left, #8dd4db , #98e3e8);
+  background: -o-linear-gradient(right, #8dd4db, #98e3e8);
+  background: -moz-linear-gradient(right, #8dd4db, #98e3e8);
+  background: linear-gradient(to right, #8dd4db , #98e3e8);
+}
+
+.card{
+  width: 1300px;
+  margin:auto;
+  align-items: center;
+}
+
+#formControlMessage {
+  width:1000px;
+}
+
+#formGroupTitle {
+  width:1000px;
+}
+
+.btn {
+  width: 300px;
+  background-color: #8dd4db !important;
+  border-color: #8dd4db !important;
+}
+
+body{
+  background-color: #f7f7f7;
+}

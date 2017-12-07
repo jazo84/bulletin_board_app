@@ -1,0 +1,25 @@
+{
+  "name": "bulletin_board_app",
+  "version": "1.0.0",
+  "description": "Vintage Message Board",
+  "main": "server.js",
+  "scripts": {
+    "start":"node ./server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazo84/bulletin_board_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jazo84/bulletin_board_app/issues"
+  },
+  "homepage": "https://github.com/jazo84/bulletin_board_app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pg": "^7.4.0"
+  }
+}
